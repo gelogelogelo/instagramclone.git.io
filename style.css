@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.instagram_logo {
+  width: 130px;
+  height: 70px;
+  margin-top: 20px;
+}
+
+.user_avatar {
+  width: 25px;
+}
+
+.sidebar {
+  margin-left: 20px;
+}
+
+.sidebarRow {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 2px;
+}
+
+.sidebarRow h4 {
+  margin-left: 20px;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.sidebarRow .material-icons {
+  font-size: 33px;
+}
+.sidebarRow:hover:nth-child(1) {
+  background: unset;
+  border-radius: unset;
+}
+.sidebarRow:hover {
+  background: #3c3d44;
+  border-radius: 10px;
+  color: white;
+}
+
+.story {
+  position: relative;
+  cursor: pointer;
+  margin: 10px;
+}
+.storyReel {
+  display: flex;
+  align-items: center;
+  justify-content: cnter;
+  padding: 50px 0;
+}
+
+.user_avatar.story_avatar {
+  width: 80px;
+  background: linear-gradient(white, white) padding-box,
+    linear-gradient(to right, red, yellow) border-box;
+  border-radius: 50%;
+  border: 3px solid transparent;
+}
+
+.main_body {
+  display: flex;
+  gap: 100px;
+}
+
+.user_avatar.post_avatar {
+  width: 40px;
+}
+
+.post_top {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  position: relative;
+}
+
+.post_top h4 {
+  margin-left: 10px;
+}
+
+.post_top .side_post {
+  position: absolute;
+  right: 0;
+}
